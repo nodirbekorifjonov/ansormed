@@ -1,0 +1,157 @@
+/* MAIN */
+.main {
+    
+}
+
+/* HERO SECTION */
+.hero-section {
+    background-color: #0EB4C1;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-info {
+    width: 50rem;
+}
+
+.hero-title {
+    font-size: 3.6rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1.6rem;
+}
+
+.hero-description {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 3.6rem;
+}
+
+.hero-btn {
+    background-color: #DE2E54;
+}
+
+.hero-btn:hover {
+    background-color: rgba(222, 46, 84, 0.8);
+}
+
+.hero-btn:active {
+    background-color: rgba(222, 46, 84, 0.6);
+}
+
+.hero-img {
+    margin-top: 2.9rem;
+}
+
+/* SERVICES SECTION */
+.services-section {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+
+.services-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-title {
+    font-size: 3.6rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #000;
+    margin-bottom: 5.6rem;
+}
+
+.services-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8rem;
+    margin-bottom: 6rem;
+}
+
+.services-item {
+    width: 86.4rem;
+    display: flex;
+    gap: 6.4rem;
+    align-items: center;
+}
+
+.services-item-img {
+    box-shadow: 0px 12px 24px -8px rgba(0, 107, 116, 0.3);
+}
+
+.services-item-info {
+    /* margin-bottom: 6rem; */
+}
+
+.services-item-title {
+    color: #222222;
+    font-size: 2.4rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    margin-bottom: 2.4rem;
+}
+
+.services-item-description {
+}
+
+.services-btn {
+    color: #DE2E54;
+    border: 2px solid #DE2E54;
+}
+
+.services-btn:hover {
+    background-color: #DE2E54;
+    border-color: #DE2E54;
+    color: #fff;
+}
+
+.services-btn:active {
+    opacity: 0.6;
+}
+
+/* REGISTRATION SECTION */
+.registration-section {
+    background-color: #0EB4C1;
+    padding-top: 6.4rem;
+    padding-bottom: 6.4rem;
+}
+
+.registration-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registration-title {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #fff;
+    margin-bottom: 4rem;
+}
+
+.registration-buttons {
+    display: flex;
+    gap: 4rem;
+}
+
+.reg-btn {
+    border: 2px solid #fff;
+}
+
+.reg-btn:hover {
+    background-color: #DE2E54;
+    border-color: transparent;
+}
+
+.reg-btn:active {
+    opacity: 0.6;
+}
